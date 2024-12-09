@@ -1,4 +1,6 @@
+import Image from "next/image";
 export default function Contact() {
+
     return (
       <div className=" min-h-screen p-8">
         {/* Header */}
@@ -87,8 +89,8 @@ export default function Contact() {
   
           {/* Illustration */}
           <div>
-            <img
-              src="/uss.png" // Replace with your illustration image
+            <Image
+              src={'/uss.png'}
               alt="Contact Illustration"
               className="w-full h-auto"
             />
