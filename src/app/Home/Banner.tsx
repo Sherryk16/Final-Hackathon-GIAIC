@@ -1,11 +1,12 @@
+import Image from "next/image";
 export default function FurnitureBanner() {
     return (
       <div className="relative bg-white flex items-center justify-between px-14 py-16 lg:py-20 lg:px-20">
         {/* Left Section */}
         <div className="flex items-start gap-10">
           {/* Bulb Image */}
-          <img
-            src="/bulb.png"
+          <Image
+            src={'/bulb.png'}
             alt="Bulb"
             className="w-[387px] object-contain"
           />
@@ -30,8 +31,8 @@ export default function FurnitureBanner() {
         {/* Right Section */}
         <div className="relative">
           {/* Chair Image */}
-          <img
-            src="/homesofa.png"
+          <Image
+            src={'/homesofa.png'}
             alt="Chair"
             className="w-[450px] object-contain"
           />

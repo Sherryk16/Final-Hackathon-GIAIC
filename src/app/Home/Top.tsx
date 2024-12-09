@@ -1,3 +1,4 @@
+import Image from "next/image";
 // components/TopCategories.jsx
 export default function TopCategories() {
     return (
@@ -11,8 +12,8 @@ export default function TopCategories() {
           <div className="w-56 flex flex-col items-center">
             <div className="relative">
               <div className="w-40 h-40 rounded-full bg-purple-100 flex items-center justify-center relative border-4 border-purple-500">
-                <img
-                  src="/top1.png" // Replace with actual image path
+                <Image
+                  src={'/top1.png'} // Replace with actual image path
                   alt="Mini LCW Chair"
                   className="w-28 h-28 object-contain"
                 />
@@ -28,8 +29,8 @@ export default function TopCategories() {
           {/* Category Item 2 */}
           <div className="w-56 flex flex-col items-center">
             <div className="w-40 h-40 rounded-full bg-purple-100 flex items-center justify-center">
-              <img
-                src="/chair2.png" // Replace with actual image path
+              <Image
+                src={'/chair2.png'} // Replace with actual image path
                 alt="Mini LCW Chair"
                 className="w-28 h-28 object-contain"
               />
@@ -41,8 +42,8 @@ export default function TopCategories() {
           {/* Category Item 3 */}
           <div className="w-56 flex flex-col items-center">
             <div className="w-40 h-40 rounded-full bg-purple-100 flex items-center justify-center">
-              <img
-                src="/chair3.png" // Replace with actual image path
+              <Image
+                src={'/chair3.png'} // Replace with actual image path
                 alt="Mini LCW Chair"
                 className="w-28 h-28 object-contain"
               />
@@ -54,8 +55,8 @@ export default function TopCategories() {
           {/* Category Item 4 */}
           <div className="w-56 flex flex-col items-center">
             <div className="w-40 h-40 rounded-full bg-purple-100 flex items-center justify-center">
-              <img
-                src="/chair4.png" // Replace with actual image path
+              <Image
+                src={'/chair4.png'} // Replace with actual image path
                 alt="Mini LCW Chair"
                 className="w-28 h-28 object-contain"
               />

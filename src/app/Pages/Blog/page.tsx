@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Blog() {
     return (
       <div className="bg-gray-50 min-h-screen p-8">
@@ -13,8 +14,8 @@ export default function Blog() {
           <div className="col-span-3 space-y-8">
             {/* Post 1 */}
             <div className="bg-white shadow rounded-lg p-4">
-              <img
-                src="/blogs.jpeg" // Replace with your image
+              <Image
+                src={'/blogs.jpeg'} // Replace with your image
                 alt="Blog 1"
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />
@@ -32,8 +33,8 @@ export default function Blog() {
   
             {/* Post 2 */}
             <div className="bg-white shadow rounded-lg p-4">
-              <img
-                src="/blogs.jpeg" // Replace with your image
+              <Image
+                src={'/blogs.jpeg'} // Replace with your image
                 alt="Blog 2"
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />
@@ -51,8 +52,8 @@ export default function Blog() {
   
             {/* Post 3 */}
             <div className="bg-white shadow rounded-lg p-4">
-              <img
-                src="/blogs.jpeg" // Replace with your image
+              <Image
+                src={'/blogs.jpeg'} // Replace with your image
                 alt="Blog 3"
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />
@@ -118,8 +119,8 @@ export default function Blog() {
             <div className="mb-8">
               <h3 className="text-lg font-semibold text-gray-700 mb-4">Sale Product</h3>
               <div className="flex items-center gap-4">
-                <img
-                  src="/sofaa1.png" // Replace with your image
+                <Image
+                  src={'/sofaa1.png'} // Replace with your image
                   alt="Sale Product"
                   className="w-16 h-16 object-cover rounded-lg"
                 />

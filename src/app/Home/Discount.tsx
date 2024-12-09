@@ -1,4 +1,5 @@
 // components/DiscountSection.jsx
+import Image from "next/image";
 export default function DiscountSection() {
     return (
       <div className="flex items-center justify-center p-10 h-[597px] w-[1214px] mx-auto">
@@ -37,8 +38,8 @@ export default function DiscountSection() {
           {/* Right Section */}
           <div className="w-1/2 flex items-center justify-center relative">
             <div className="rounded-full bg-pink-100 w-72 h-72 absolute"></div>
-            <img
-              src="/discsofa.png" // Replace with your actual image path
+            <Image
+              src={'/discsofa.png'} // Replace with your actual image path
               alt="Eams Sofa Compact"
               className="relative w-72 h-72 object-cover"
             />

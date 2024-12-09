@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Home() {
   const products = [
     { title: "Vel elit eiusmod", price: 60, discountPrice: 45, image: "/pr1.png" },
@@ -21,7 +22,7 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {products.map((product, index) => (
             <div key={index} className="bg-white border rounded-md shadow-md p-4">
-              <img
+              <Image
                 src={product.image}
                 alt={product.title}
                 className="w-40 h-30 object-cover rounded-md mb-4"
